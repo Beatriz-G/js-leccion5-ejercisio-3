@@ -4,10 +4,10 @@ var modalX = document.querySelector(".modal-x");
 
 button.addEventListener("click", function () {
     modal.classList.add("show-modal");
-    button.innerText = "You've got this!!!";
+    button.innerText = "Yesss, You've got this!!!";
 });
 
 modal.addEventListener("click", function() {
     modal.classList.remove("show-modal");
-    modal.innerTex.add = "Who's got this!";
+    modal.innerText.add = "Who's got this!";
 });
